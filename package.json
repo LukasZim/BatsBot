@@ -1,0 +1,24 @@
+{
+  "name": "batsbot",
+  "version": "1.0.0",
+  "description": "bats zn kneiterbot",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LukasZim/BatsBot.git"
+  },
+  "keywords": [
+    "bats",
+    "ebola",
+    "kneiter"
+  ],
+  "author": "Smikkelbeer",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LukasZim/BatsBot/issues"
+  },
+  "homepage": "https://github.com/LukasZim/BatsBot#readme"
+}
