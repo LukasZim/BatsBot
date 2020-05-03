@@ -21,5 +21,8 @@
   "bugs": {
     "url": "https://github.com/LukasZim/BatsBot/issues"
   },
-  "homepage": "https://github.com/LukasZim/BatsBot#readme"
+  "homepage": "https://github.com/LukasZim/BatsBot#readme",
+  "dependencies": {
+    "discord.js": "^12.2.0"
+  }
 }
