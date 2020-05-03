@@ -69,7 +69,7 @@ bot.on("message", async message => {
     } else {
         //als de message "hugo" bevat, stuur iets irritants
         if (message.content.toLowerCase().includes("bats"))
-            return message.channel.send("DAAAAAAAAAT BEEEEEEEN IKKKKKKKKKK\NREEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE");
+            return message.channel.send("DAAAAAAAAAT BEEEEEEEN IKKKKKKKKKK\nREEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE");
         if (message.content.toLowerCase().includes("gay")) {
             return message.channel.send("( ͡° ͜ʖ ͡°)");
         } 
