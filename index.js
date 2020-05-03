@@ -3,7 +3,7 @@ const botConfig = require("./botconfig.json");
 
 const fs = require("fs");
 
-const active = new Map();
+
 
 const bot = new discord.Client();
 bot.commands = new discord.Collection();
@@ -62,19 +62,15 @@ bot.on("message", async message => {
     var arguments = messageArray.slice(1);
     var commands = bot.commands.get(command);
 
-    var options = {
-        active: active
-    }
-
     if (message.author.id == 321034764268077066) {
         message.channel.send("goedenmorgen alterego, ZIJN.WE.ER.KLAAR.VOOR>?\nAJAJ KAPITIJN");
     }
     if (commands) {
-        commands.run(bot, message, arguments, options);
+        commands.run(bot, message, arguments);
     } else {
         //als de message "hugo" bevat, stuur iets irritants
-        if (message.content.toLowerCase().includes("hugo"))
-            return message.channel.send("LOOOOOOOOOL, DAT BEN IK \nIK.BEN.LETTERLIJK.HUGO.WTF.LOOOOOOL.XDXD.LMAO!!!!");
+        if (message.content.toLowerCase().includes("bats"))
+            return message.channel.send("DAAAAAAAAAT BEEEEEEEN IKKKKKKKKKK\NREEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE");
         if (message.content.toLowerCase().includes("gay")) {
             return message.channel.send("( ͡° ͜ʖ ͡°)");
         } 
