@@ -62,7 +62,7 @@ bot.on("message", async message => {
     var commands = bot.commands.get(command);
 
     if (message.author.id == 319523980543393792) {
-        message.channel.send("goedenmorgen alterego, ZIJN.WE.ER.KLAAR.VOOR>?\nAJAJ KAPITIJN");
+        message.channel.send("gREEEEEEEEEEEEtings alterego, ARE WE IN THERE\nYA YEEEEEEEEEEEEEEEEET");
     }
     if (commands) {
         commands.run(bot, message, arguments);
