@@ -48,7 +48,7 @@ bot.once("disconnect", () => {
 
 bot.on("ready", async () => {
     console.log(`${bot.user.username} is online!`);
-    bot.user.setActivity("with Bastiaan's wiener", { type: "PLAYING" });
+    bot.user.setActivity("with Bats's wiener", { type: "PLAYING" });
 });
 
 
